@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">    
+<title>My Flexbox Project</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__logo">Audito</div>
+        <nav class="header__menu">
+            <a class="header__link" href="#pricing-link">Pricing</a></li>
+            <a class="header__link" href="#features-link">Features</a></li>
+            <a class="header__link" href="#contact-link">Contact</a></li>
+        </nav>
+        <div class="header__btn-container">
+            <button class="btn">Login</button>
+            <button class="btn">Download App</button>
+        </div>
+        <button class="header__bars">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+        fill="none" 
+        viewBox="0 0 24 24" 
+        stroke-width="1.5" 
+        stroke="currentColor" 
+        width="34"
+        height="34"
+        >
+            <path stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M3.75 9h16.5m-16.5 6.75h16.5" 
+            />
+        </svg>
+        </button>
+    </header>
+        <section class="hero container">
+            <h1 class="hero__title">Accounting made simple for small businesses.</h1>
+            <p class="hero__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="btn-large" href="#">Learn more</a>
+        </section>
+        <section class="pricing container" id="pricing-link">
+            <h2 class="pricing__title">Simple Transparent Pricing.</h2>
+            <p class="pricing__description">It doesnt matter what size your business is, our software work wont work for you</p>
+            <div class="pricing__cards-container">
+                <div class="pricing__card">
+                    <header class="pricing__card-header">
+                        <h4 class="pricing__plan">Starter</h4>
+                        <h3 class="pricing__price">$9</h3>
+                    </header>
+                    <p class="pricing__plan-description">Good for anyone that is self employed</p>
+                    <ul class="pricing__features">
+                        <li>Send 10 quotes and invoices</li>
+                        <li>Connect up to 2 bank accounts</li>
+                        <li>Track up to 15 expences per month</li>
+                        <li>Manual payroll support</li>
+                        <li>Export uo to 3 rapports</li>
+                    </ul>
+                    <a class="pricing__btn" href="#">Get started</a>
+                </div>
+                <div class="pricing__card">
+                    <header class="pricing__card-header">
+                        <h4 class="pricing__plan">Business</h4>
+                        <h3 class="pricing__price">$12</h3>
+                    </header>
+                    <p class="pricing__plan-description">Good for small and medium businesses</p>
+                    <ul class="pricing__features">
+                        <li>Send 10 quotes and invoices</li>
+                        <li>Connect up to 2 bank accounts</li>
+                        <li>Track up to 15 expences per month</li>
+                        <li>Manual payroll support</li>
+                        <li>Export uo to 3 rapports</li>
+                    </ul>
+                    <a class="pricing__btn" href="#">Get started</a>
+                </div>
+                <div class="pricing__card">
+                    <header class="pricing__card-header">
+                        <h4 class="pricing__plan">Enterprise</h4>
+                        <h3 class="pricing__price">$15</h3>
+                    </header>
+                    <p class="pricing__plan-description">For even the biggest enterprice companies</p>
+                    <ul class="pricing__features">
+                        <li>Send 10 quotes and invoices</li>
+                        <li>Connect up to 2 bank accounts</li>
+                        <li>Track up to 15 expences per month</li>
+                        <li>Manual payroll support</li>
+                        <li>Export uo to 3 rapports</li>
+                    </ul>
+                    <a class="pricing__btn" href="#">Get started</a>
+                </div>
+            </div>
+        </section>
+        <section class="features container" id="features-link">
+            <h2 class="features__title">Everything you need to run your books.</h2>
+            <p class="features__description">
+                Well everything you need, you arent that picky about minor details like tax compliance.
+            </p>
+            <div class="features__container">
+                <a href="#" class="features__card">
+                    <h3 class="features__card-title">Payroll</h3>
+                    <p class="features__card-description">Keep track of everyones salaries and weather or not they have been paid. Direct deposit not supported.</p>
+                </a>
+                <a href="#" class="features__card">
+                    <h3 class="features__card-title">Payroll</h3>
+                    <p class="features__card-description">Keep track of everyones salaries and weather or not they have been paid. Direct deposit not supported.</p>
+                </a>
+                <a href="#" class="features__card">
+                    <h3 class="features__card-title">Payroll</h3>
+                    <p class="features__card-description">Keep track of everyones salaries and weather or not they have been paid. Direct deposit not supported.</p>
+                </a>
+                <a href="#" class="features__card">
+                    <h3 class="features__card-title">Payroll</h3>
+                    <p class="features__card-description">Keep track of everyones salaries and weather or not they have been paid. Direct deposit not supported.</p>
+                </a>
+                <a href="#" class="features__card">
+                    <h3 class="features__card-title">Payroll</h3>
+                    <p class="features__card-description">Keep track of everyones salaries and weather or not they have been paid. Direct deposit not supported.</p>
+                </a>
+            </div>
+        </section>
+        <section class="contact container" id="contact-link">
+            <h2 class="contact__title">Reach out</h2>
+            <p class="contact__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="btn-large" href="#">Send email</a>
+        </section>
+        <footer class="footer container">
+            <h2 class="footer__title">Auditio AS</h2>
+        </footer>
+</body>
+</html>
